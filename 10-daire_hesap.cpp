@@ -1,9 +1,6 @@
 #include <iostream>
+#include <cstdlib>
 using namespace std;
-
-/* daire alan = pi *r*r
-*çevre = 2*pi*r
-*/
 
 const float pi = 3.14;
 int main(){
@@ -14,4 +11,6 @@ int main(){
     cevre = 2*pi*r;
     cout <<"Dairenin alani: " << alan << endl;
     cout <<"Dairenin cevresi: " << cevre << endl;
+    system("pause");
+    return 0;
 }
